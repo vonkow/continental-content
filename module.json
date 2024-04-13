@@ -1,0 +1,122 @@
+{
+  "id": "continental-content",
+  "title": "Continental Content Module",
+  "description": "For Continental Affairs.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Caz",
+      "discord": "vonkow",
+      "url": "https://www.sorcerersunion.com/",
+      "flags": {}
+    }
+  ],
+    "relationships": {
+    "systems": [
+      {
+        "id": "ars",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2024.03.09"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11"
+  },
+  "packs": [
+    {
+      "name": "module-creatures",
+      "label": "Module Creatures",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "ars",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-items",
+      "label": "Module Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "ars",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-scenes",
+      "label": "Module Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-journal-entries",
+      "label": "Module Journal Entries",
+      "path": "packs/journal-entries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-macros",
+      "label": "Module Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-roll-tables",
+      "label": "Module Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-playlists",
+      "label": "Module Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "module-adventures",
+      "label": "Module Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "manifest": "",
+  "download": ""
+}
